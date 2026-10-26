@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(232, 231, 238);
+    text-align: center;
+
+
+    header{
+        text-align: center;
+        padding: 8px;
+         margin-top: 0px;
+           background-color: hsl(293, 78%, 69%);
+        
+
+    }
+    nav {
+            background-color: #e074ee;
+            text-align: center;
+            padding: 15px 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+        }
+    
+
+    h2 {
+            color: #4e16e7;
+            text-align: center;
+
+            padding-bottom: 8px;
+        }
+    
+
+    }
+   .container {
+        text-align: center;
+
+    }
+    
+    .textos {
+        text-align: justify;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .textos0{
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        
+    }
+
+    footer {
+             background-color: #e074ee;
+            color: #ffffff;
+            text-align: center;
+            padding: 18px;
+            margin-top: 30px;
+        }
+    .formulario{
+        text-align: left;
+            padding: 18px;
+            margin-top: 30px;
+    }
+
+ 
