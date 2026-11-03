@@ -89,7 +89,17 @@ body{
     a{
         color: yellow;
         text-decoration: none;
+           
     }
+    a:active{
+        color: #ff9900;
+    }
+    a:hover{
+        text-decoration: underline;
+         font-weight: bold;
+        
+    }
+    
     button{
         background-color: black;
         border-radius: 8px;
