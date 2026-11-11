@@ -3,69 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <meta name="description" content="Entre em contato com Felipe Remédios.">
+    <title>Contato | Felipe Remédios</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    <style>
-        body{
-            background-image:url(img/wc1677510.jpg);
-            background-size: cover; 
-            background-position: center;
-            
-        }
-    </style>
-</head>
-<body>
-     <header>
-        <h1>Entre em contato</h1>
-        <nav>
-            <a href="index.html">Pagina principal</a>
-            
-        
+<body class="pagina-contato">
+    <header class="cabecalho">
+        <a class="marca" href="index.html">Felipe <span>R.</span></a>
+        <nav class="navegacao" aria-label="Navegação principal">
+            <a href="index.html">Página inicial</a>
         </nav>
     </header>
-    <h1>Formulário</h1>
 
-    <form>
+    <main class="conteudo-principal">
+        <section class="secao secao-formulario">
+            <div class="titulo-secao">
+                <p class="sobretitulo">Fale comigo</p>
+                <h1>Entre em contato</h1>
+                <p>Preencha o formulário para enviar sua mensagem.</p>
+            </div>
+            <form class="formulario-contato">
+                <fieldset class="formss">
+                    <legend>Dados do contato</legend>
+                    <div class="campo-formulario">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" autocomplete="name" required>
+                    </div>
+                    <div class="campo-formulario">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </div>
+                    <div class="campo-formulario">
+                        <label for="assunto">Assunto</label>
+                        <input type="text" id="assunto" name="assunto">
+                    </div>
+                    <div class="campo-formulario">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                    </div>
+                    <div class="acoes-formulario">
+                        <button type="submit">Enviar mensagem</button>
+                        <button class="botao-secundario" type="reset">Limpar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
 
-        <fieldset class="formss">
-            <legend>Dados do contato</legend>
-
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <br><br>
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-
-            <br><br>
-
-            <label for="assunto">Assunto:</label>
-            <input type="text" id="assunto" name="assunto">
-
-            <br><br>
-
-            <label for="mensagem">Mensagem:</label>
-            <br>
-            <textarea id="mensagem" name="mensagem" rows="6" cols="40" required></textarea>
-
-            <br><br>
-
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpar</button>
-
-        </fieldset>
-
-    </form>
-
-    <footer>
-
-    <a href="www.linkedin.com/in/felipe-remedios-33370b232" target="_blank">Linkedin</a>
-    <a href="https://github.com/feliper107" target="_blank">GitHub</a>
-
-    <p>Desenvolvido por Felipe Remedios </p>
-    <p>Minha Pagina pessoal 2026</p>
-</footer>
+    <footer class="rodape">
+        <div class="links-rodape">
+            <a href="https://www.linkedin.com/in/felipe-remedios-33370b232" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/feliper107" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <p>Desenvolvido por Felipe Remédios</p>
+        <p>Minha página pessoal · 2026</p>
+    </footer>
 </body>
 </html>

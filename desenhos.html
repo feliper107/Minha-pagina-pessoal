@@ -1,39 +1,43 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Uma seleção de desenhos feitos por Felipe Remédios.">
+    <title>Meus desenhos | Felipe Remédios</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>Página Pessoal</h1>
-        <nav>
-            <a href="#Sobre">Sobre mim</a>
-            <a href="#Formação">Formação Academica</a>
-            <a href="#profissional">Vida profisional</a>
-            <a href="#hobbies">Meus hobbies</a>
+<body class="pagina-desenhos">
+    <header class="cabecalho">
+        <a class="marca" href="index.html">Felipe <span>R.</span></a>
+        <nav class="navegacao" aria-label="Navegação principal">
+            <a href="index.html">Página inicial</a>
         </nav>
     </header>
-    <main>
-        <h2>Estes são alguns do meus desenhos</h2>
-        <p>Infelizmente são desenhos antigos , pois não tenho tido muito tempo para desenhar mais...</p>
-        <img src="img/20150225_144148.jpg" width="800" height="600" alt="desenho1">
-        <img src="img/20170810_150304.jpg" width="600" height="700" alt="2">
-        <img src="img/20161228_164451.jpg" width="600" height="800"alt="3">
-        <img src="img/20170726_144404.jpg" width="700" height="700" alt="">
 
+    <main class="conteudo-principal">
+        <section class="secao">
+            <div class="titulo-secao">
+                <p class="sobretitulo">Um pouco do meu lado criativo</p>
+                <h1>Meus desenhos</h1>
+                <p>Estes são alguns dos meus desenhos. São trabalhos antigos, pois não tenho tido muito tempo para desenhar.</p>
+            </div>
+            <div class="galeria-desenhos">
+                <img src="img/20150225_144148.jpg" alt="Desenho feito em fevereiro de 2015" loading="lazy">
+                <img src="img/20170810_150304.jpg" alt="Desenho feito em agosto de 2017" loading="lazy">
+                <img src="img/20161228_164451.jpg" alt="Desenho feito em dezembro de 2016" loading="lazy">
+                <img src="img/20170726_144404.jpg" alt="Desenho feito em julho de 2017" loading="lazy">
+            </div>
+        </section>
     </main>
 
-    <footer>
-
-    <a href="www.linkedin.com/in/felipe-remedios-33370b232" target="_blank">Linkedin</a>
-    <a href="https://github.com/feliper107" target="_blank">GitHub</a>
-
-    <p>Desenvolvido por Felipe Remedios </p>
-    <p>Minha Pagina pessoal 2026</p>
-</footer>
+    <footer class="rodape">
+        <div class="links-rodape">
+            <a href="https://www.linkedin.com/in/felipe-remedios-33370b232" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/feliper107" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <p>Desenvolvido por Felipe Remédios</p>
+        <p>Minha página pessoal · 2026</p>
+    </footer>
 </body>
 </html>

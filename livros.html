@@ -1,42 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-      <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Livros que já li e minhas próximas leituras.">
+    <title>Minhas leituras | Felipe Remédios</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>Página Pessoal</h1>
-        <nav>
-            <a href="index.html">Sobre mim</a>
-            <a href="#Formação">Formação Academica</a>
-            <a href="#profissional">Vida profisional</a>
-            <a href="#hobbies">Meus hobbies</a>
+<body class="pagina-livros">
+    <header class="cabecalho">
+        <a class="marca" href="index.html">Felipe <span>R.</span></a>
+        <nav class="navegacao" aria-label="Navegação principal">
+            <a href="index.html">Página inicial</a>
         </nav>
     </header>
-    <h1>Minhas leituras</h1>
-    <p>Aqui nesta página voce poderá ver os livros que eu já li , indicações e proximas leituras.</p> 
-    <h2>Livros que já li</h2>
-    <div class="imagens">
-        <img src="https://m.media-amazon.com/images/I/91SDZ2eUj+L._SL1500_.jpg" width="200" height="300" alt="Livro">
-        <img src="https://m.media-amazon.com/images/I/6175IU0qFgL._SL1000_.jpg" width="200" height="300" alt="Livro">
-        <img src="https://m.media-amazon.com/images/I/81Lyq240udL._SL1500_.jpg" width="200" height="300" alt="livro">
-    </div>
-    <a href="https://www.amazon.com.br/Verity-Colleen-Hoover/dp/8501117846/ref=asc_df_8501117846?mcid=9d6b9a99a03630198a9042824b674f07&tag=googleshopp00-20&linkCode=df0&hvadid=709883381665&hvpos=&hvnetw=g&hvrand=11671231450096449266&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101198&hvtargid=pla-891491203574&psc=1&hvocijid=11671231450096449266-8501117846-&hvexpln=0&language=pt_BR" target="_blank">Saiba Mais</a>
 
-    
-    <h2>Proximas leituras</h2>
+    <main class="conteudo-principal">
+        <section class="secao">
+            <div class="titulo-secao">
+                <p class="sobretitulo">Um tempo para ler</p>
+                <h1>Minhas leituras</h1>
+                <p>Aqui você pode conhecer alguns livros que já li, encontrar indicações e acompanhar minhas próximas leituras.</p>
+            </div>
 
-    <footer>
+            <section class="secao-leituras" aria-labelledby="livros-lidos">
+                <h2 id="livros-lidos">Livros que já li</h2>
+                <div class="imagens">
+                    <img src="https://m.media-amazon.com/images/I/91SDZ2eUj+L._SL1500_.jpg" alt="Capa de um livro que já li" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/6175IU0qFgL._SL1000_.jpg" alt="Capa de um livro que já li" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/81Lyq240udL._SL1500_.jpg" alt="Capa de um livro que já li" loading="lazy">
+                </div>
+                <a class="botao link-livro" href="https://www.amazon.com.br/Verity-Colleen-Hoover/dp/8501117846/" target="_blank" rel="noopener noreferrer">Saiba mais sobre Verity</a>
+            </section>
 
-    <a href="www.linkedin.com/in/felipe-remedios-33370b232" target="_blank">Linkedin</a>
-    <a href="https://github.com/feliper107" target="_blank">GitHub</a>
+            <section class="secao-leituras proximas-leituras" aria-labelledby="proximas-leituras">
+                <h2 id="proximas-leituras">Próximas leituras</h2>
+                <p>Em breve vou compartilhar por aqui os livros que estão na minha lista.</p>
+            </section>
+        </section>
+    </main>
 
-    <p>Desenvolvido por Felipe Remedios </p>
-    <p>Minha Pagina pessoal 2026</p>
-</footer>
-    
+    <footer class="rodape">
+        <div class="links-rodape">
+            <a href="https://www.linkedin.com/in/felipe-remedios-33370b232" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/feliper107" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <p>Desenvolvido por Felipe Remédios</p>
+        <p>Minha página pessoal · 2026</p>
+    </footer>
 </body>
 </html>

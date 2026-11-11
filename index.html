@@ -3,94 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Página pessoal de Felipe Remédios: trajetória, formação, tecnologias e interesses.">
+    <title>Felipe Remédios | Página pessoal</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>Felipe R.</h1>
-        <nav>
-            <a href="#Sobre">Sobre mim</a> &nbsp&nbsp&nbsp
-            <a href="#Formação">Formação Academica</a>&nbsp&nbsp&nbsp
-            <a href="#profissional">Vida profisional</a>&nbsp&nbsp&nbsp
-            <a href="#hobbies">Meus hobbies</a>&nbsp&nbsp&nbsp
-            <a href="#contato">Entre em Contato </a>&nbsp&nbsp&nbsp
-            
+<body class="pagina-inicial">
+    <header class="cabecalho">
+        <a class="marca" href="#inicio" aria-label="Voltar ao início">Felipe <span>R.</span></a>
+        <nav class="navegacao" aria-label="Navegação principal">
+            <a href="#sobre">Sobre mim</a>
+            <a href="#formacao">Formação</a>
+            <a href="#tecnologias">Tecnologias e interesses</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
 
-    <main>
-        <section id = "Sobre">
-           <div class="textos0"><p>Olá , meu nome é Felipe
-            , seja bem vindo a minha página!
-           </p>
+    <main class="conteudo-principal" id="inicio">
+        <section class="apresentacao" aria-labelledby="titulo-apresentacao">
+            <div class="apresentacao-texto">
+                <p class="sobretitulo">Página pessoal</p>
+                <h1 id="titulo-apresentacao">Olá, eu sou o Felipe.</h1>
+                <p>Seja bem-vindo! Aqui compartilho um pouco da minha trajetória, dos meus estudos e das coisas de que gosto.</p>
+                <a class="botao" href="#sobre">Conheça minha história</a>
             </div>
-            <div class="container"><img src="img/redimensionada.png" alt=""></div>
-             <h2>Sobre mim</h2>
-            <div class="textos">
-            <p>Desde o ensino médio, eu sempre gostei de ciencias exatas.Minhas matérias favoritas eram Fisica e Matematica. Naquela época, meu objetivo
-            era cursar licenciatura em Matematica e um dia dar aula. Em 2021 fiz a prova do Enem e consegui vaga através do SISU na UFSJ. Nesse período eu ja trabalhava em uma grande empresa brasileira do setor comercial. Havia sido promovido recentemente 
-            e estava muito contente com essa promoção. Por esse motivo e alguns outros , eu decidi conciliar os estudos com o trabalho. Foi um pouco desgastante,pois eu trabalhava em Barbacena e fazia faculdade em SJ. Mantive assim durante aproximadamente 6 meses , foi o tempo suficiente para eu perceber que Matematica não era oque eu realmente queria fazer. Durante as aulas de matematica eu ja analisava as possibilidades de mudar para a  aréa de TI. Desde de criança, sempre gostei de tecnologias ,então com certeza eu iria gostar de estudar a aprender mais sobre TI.
-            Ainda em 2022 , inicei o curso de Engenharia de Software , mas dessa vez Ead , pois não encontrei o curso presencialmente aqui nas cidades proximas.
-            Obviamente , foi bem mais fácil de consiliar o curso com o trabalho ,e em agosto deste ano me formei. Resolvi entrar no curso de Tecnologo de Sistemas para Internet com o objetivo de adquirir novos conhecimentos e experiencias, ao mesmo tempo que busco uma vaga no mercado para que eu possa colocar em prática tudo aquilo que aprendi ao longo desses anos.
-             </p> </div>   
+            <img class="foto-perfil" src="img/redimensionada.png" alt="Foto de Felipe">
         </section>
 
-        <section id="Formação">
-            <h2>Formação Academica</h2>
-            <div class="lista1">
-                <ul>
-                    <li>Bacharel em Engenharia de sofwtare - Unicessumar - 2022-2026</li>
-                    <li> Cursando Técnico em Informática para Internet - IFSMG</li>
-                </ul>
+        <section class="secao sobre" id="sobre">
+            <div class="titulo-secao">
+                <p class="sobretitulo">Quem sou</p>
+                <h2>Sobre mim</h2>
             </div>
-                
-            <h4>Outros cursos</h4>
-            <ul>
-                <li>Trilha completa de Dart - Alura</li>
-                <li>Aprendizagem industrial em Processos Adminitrativos - SENAI</li>
-            </ul>
-            
-            <section id="Profissional">
-                <h2>Vida Profissional</h2>
-                <p>Em produção...</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quia veritatis veniam mollitia inventore maiores totam quo, assumenda ab, culpa ipsum dicta magni nihil odio! Consectetur maiores illo vitae exercitationem.</p>
-            </section>
+            <p>Desde o ensino médio, sempre gostei de ciências exatas. Minhas matérias favoritas eram Física e Matemática, e por isso meu primeiro objetivo foi cursar licenciatura em Matemática. Em 2021, consegui uma vaga na UFSJ pelo SISU. Na época, eu já trabalhava em uma grande empresa brasileira do setor comercial e decidi conciliar o trabalho com a faculdade. A rotina entre Barbacena e São João del-Rei foi desgastante e, depois de cerca de seis meses, percebi que Matemática não era o curso que eu realmente queria fazer.</p>
+            <p>Desde criança também me interesso por tecnologia. Em 2022, comecei Engenharia de Software no formato EAD, o que tornou mais fácil conciliar os estudos com o trabalho. Depois de concluir o curso, decidi iniciar Sistemas para Internet para ampliar meus conhecimentos e buscar uma oportunidade na área de TI, colocando em prática o que venho aprendendo.</p>
         </section>
-        <section id="hobbies">
-            <h2>Meus Hobbies</h2>
-            <ul>
+
+        <section class="secao formacao" id="formacao">
+            <div class="titulo-secao">
+                <p class="sobretitulo">Minha jornada</p>
+                <h2>Formação acadêmica</h2>
+            </div>
+            <ul class="lista-formacao">
+                <li><strong>Bacharelado em Engenharia de Software</strong><span>UniCesumar · 2022–2026</span></li>
+                <li><strong>Técnico em Informática para Internet</strong><span>IFSMG · cursando</span></li>
+            </ul>
+            <h3>Outros cursos</h3>
+            <ul class="lista-cursos">
+                <li>Trilha completa de Dart — Alura</li>
+                <li>Aprendizagem Industrial em Processos Administrativos — SENAI</li>
+            </ul>
+        </section>
+
+        <section class="secao tecnologias" id="tecnologias">
+            <div class="titulo-secao">
+                <p class="sobretitulo">O que estou explorando</p>
+                <h2>Tecnologias e interesses</h2>
+                <p>Áreas, ferramentas e assuntos que estudo ou quero conhecer melhor.</p>
+            </div>
+            <div class="grade-cartoes">
+                <article class="cartao cartao-destaque">
+                    <div class="cartao-cabecalho"><h3>Desenvolvimento web</h3></div>
+                    <p>Criação de páginas e aplicações para a web, com foco em estrutura, estilo e interação.</p>
+                    <ul class="tags" aria-label="Tecnologias"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+                </article>
+                <article class="cartao">
+                    <div class="cartao-cabecalho"><h3>Engenharia de software</h3></div>
+                    <p>Boas práticas para planejar, desenvolver e manter sistemas de qualidade.</p>
+                    <ul class="tags" aria-label="Tópicos"><li>Requisitos</li><li>Qualidade</li><li>Testes</li></ul>
+                </article>
+                <article class="cartao">
+                    <div class="cartao-cabecalho"><span class="icone-cartao" aria-hidden="true">▤</span><h3>Inteligência Articificial</h3></div>
+                    <p>Enhenharia de Prompts, automoção de processos , LLMs.</p>
+                    <ul class="tags" aria-label="Tópicos"><li>IA Generativa</li><li>Engenharia Reversa</li></ul>
+                </article>
+                <article class="cartao">
+                    <div class="cartao-cabecalho"><span class="icone-cartao" aria-hidden="true">⌘</span><h3>Controle de versão</h3></div>
+                    <p>Registro de mudanças e colaboração durante o desenvolvimento de projetos.</p>
+                    <ul class="tags" aria-label="Ferramentas"><li>Git</li><li>GitHub</li></ul>
+                </article>
+                <article class="cartao">
+                    <div class="cartao-cabecalho"><span class="icone-cartao" aria-hidden="true">↗</span><h3>Hardware</h3></div>
+                    <p>Montagem e manutenção de computadores.</p>
+                    <ul class="tags" aria-label="Interesses"><li>Upgrades</li><li>Arquitetura de PCs</li></ul>
+                </article>
+                <!--<article class="cartao cartao-interesse">
+                    <div class="cartao-cabecalho"><span class="icone-cartao" aria-hidden="true">⚽</span><h3>Futebol e ciclismo</h3></div>
+                    <p>Esporte, movimento e momentos para recarregar as energias.</p>
+                    <ul class="tags" aria-label="Interesses"><li>Futebol</li><li>Ciclismo</li></ul>
+                </article>-->
+            </div>
+        </section>
+
+        <section class="secao hobbies" id="hobbies">
+            <div class="titulo-secao">
+                <p class="sobretitulo">Fora dos estudos</p>
+                <h2>Meus hobbies</h2>
+            </div>
+            <ul class="lista-hobbies">
                 <li>Viajar e conhecer lugares</li>
-                <li>Jogar futebol </li>
-                <li>Assisitir futebol, series e filmes</li>
-                <li>Desenhar <a href="desenhos.html" target="_blank">Conheça meus desenhos</a></li>
+                <li>Jogar e assistir futebol</li>
+                <li>Assistir séries e filmes</li>
                 <li>Jogar online com amigos</li>
                 <li>Colecionar miniaturas de carros</li>
-                <li>Ler livros - Novo hoobie- <a href="livros.html" target="_blank" rel="next">Saiba mais</a></li>
+                <li>Desenhar — <a href="desenhos.html">veja alguns desenhos</a></li>
+                <li>Ler — <a href="livros.html">conheça minhas leituras</a></li>
             </ul>
         </section>
-        <br>
-        <br>
 
-        <section id="contato">
-            <button>
-               
-                <a href="contato.html"> Entre em contato</a>
-            </button>
+        <section class="secao chamada-contato" id="contato">
+            <div><p class="sobretitulo">Vamos conversar?</p><h2>Entre em contato</h2></div>
+            <a class="botao" href="contato.html">Abrir formulário</a>
         </section>
-
-        
-
     </main>
-<footer>
 
-    <a href="www.linkedin.com/in/felipe-remedios-33370b232" target="_blank">Linkedin</a>
-    <a href="https://github.com/feliper107" target="_blank">GitHub</a>
-
-    <p>Desenvolvido por Felipe Remedios </p>
-    <p>Minha Pagina pessoal 2026</p>
-</footer>
-
-    
+    <footer class="rodape">
+        <div class="links-rodape">
+            <a href="https://www.linkedin.com/in/felipe-remedios-33370b232" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/feliper107" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <p>Desenvolvido por Felipe Remédios</p>
+        <p>Minha página pessoal · 2026</p>
+    </footer>
 </body>
 </html>
